@@ -1,0 +1,28 @@
+nums = [10, 20, 30, 40]
+print(nums[2:])
+print(nums[0:-2])
+print(nums[1:3])
+names = ['sajjad ', 'sadik ', 'nasir ']
+print(names[1])
+print(nums + names)
+print(names[2] + str(nums[2]))
+print(".................................")
+nums.append(111)
+print(nums)
+nums.insert(0, 5)   # (index, value)
+print(nums)
+nums.pop(3)
+print(nums)
+nums.pop()      # last number is deleted
+print(nums)
+del nums[1:]    # for deleting any/whole
+print(nums)
+print(".............................")
+nums.extend([231, 2, 44, 123])
+print(nums)
+x = min(nums)
+print(x)
+print(max(nums))
+print(sum(nums))
+nums.sort()
+print(nums)
