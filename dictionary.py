@@ -50,4 +50,5 @@ print(prog['C#'])
 print(prog['Python'][0])
 print(prog['Java'])
 print(prog['Java']['JEE'])
-
+print(prog.keys())
+print(prog.values())
