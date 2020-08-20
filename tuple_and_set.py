@@ -1,6 +1,7 @@
 # tuple
 """
 tuple is like list. but you can not change the value of it.
+tuple is inmutable
 fact: tuple is fatser than lsit.
 """
 

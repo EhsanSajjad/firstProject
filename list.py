@@ -1,4 +1,7 @@
 nums = [10, 20, 30, 40]
+numIndex = nums.index(30)
+print(numIndex)
+
 print(nums[2:])
 print(nums[0:-2])
 print(nums[1:3])
@@ -26,3 +29,13 @@ print(max(nums))
 print(sum(nums))
 nums.sort()
 print(nums)
+
+l = [311, 143, 3, 34, 2, 234]
+print('list is sorted: ', sorted(l))
+
+#checking the elements are there or not in the list, using in operator
+check = 311 in l
+print(check)
+print(32 in l)
+
+
