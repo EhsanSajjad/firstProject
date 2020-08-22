@@ -2,6 +2,9 @@ nums = [10, 20, 30, 40]
 numIndex = nums.index(30)
 print(numIndex)
 
+d = [1, 2, 3][1:]
+print(len(d))
+
 print(nums[2:])
 print(nums[0:-2])
 print(nums[1:3])
@@ -37,5 +40,15 @@ print('list is sorted: ', sorted(l))
 check = 311 in l
 print(check)
 print(32 in l)
+print("......................")
+
+x = list(range(0, 4))
+print(x)
+print(list(range(1,5)))
+print(list(range(10)))
+print(list(range(1,11)))
+print(list(range(0)))
+print(list(range(1,10,2)))
+
 
 

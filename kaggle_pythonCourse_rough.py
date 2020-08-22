@@ -1,3 +1,7 @@
+# to make round number
+x =  3.12343
+print(round(x, 2))
+
 def to_smash(total_candies):
     """Return the number of leftover candies that must be smashed after distributing
     the given number of candies evenly between 3 friends.
