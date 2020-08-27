@@ -27,12 +27,32 @@ print(".............................")
 arr = arange(1, 10, 2)
 print(arr)
 
+
 #logspace()
 arr = logspace(1, 40, 5)
 print(arr)
+print('%.3f' %arr[1])
 # starts from log 10 base to 1
 # ends with log 10 base to 40
 # 5 is the dividing path
+print('....................')
+
+
+# zeros()
+arr = zeros(5)
+arr2 = zeros(5, int)
+print(arr)
+print(arr2)
+
+
+# ones()
+arr = ones(5)
+arr2 = ones(5, str)
+print(arr)
+print(arr2)
+
+
+
 
 
 
